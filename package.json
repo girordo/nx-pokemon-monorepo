@@ -26,7 +26,7 @@
     "@nrwl/jest": "14.4.0",
     "@nrwl/linter": "14.4.0",
     "@nrwl/next": "^14.4.0",
-    "@nrwl/node": "14.4.0",
+    "@nrwl/node": "^14.4.0",
     "@nrwl/react": "14.4.0",
     "@nrwl/web": "14.4.0",
     "@nrwl/workspace": "14.4.0",

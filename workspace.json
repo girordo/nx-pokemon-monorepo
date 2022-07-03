@@ -4,6 +4,7 @@
   "projects": {
     "next-pokemon": "apps/next-pokemon",
     "next-pokemon-e2e": "apps/next-pokemon-e2e",
-    "pokemon-api": "apps/pokemon-api"
+    "pokemon-api": "apps/pokemon-api",
+    "shared-types": "libs/shared-types"
   }
 }
