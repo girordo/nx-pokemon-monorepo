@@ -17,6 +17,15 @@ app.get('/pokemon', (_, res) => {
   res.send(pokemon);
 });
 
+app.get('/search', (req, res) => {
+  const q = ((req.query.q as string) ?? '').toLowerCase();
+  res.send(
+    pokemon.filter(({ name: { english } }) =>
+      english.toLowerCase().includes(q)
+    ) ?? ` `
+  );
+});
+
 const port = process.env.port || 3333;
 const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
