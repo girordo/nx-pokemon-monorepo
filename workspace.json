@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "next-pokemon": "apps/next-pokemon",
+    "next-pokemon-e2e": "apps/next-pokemon-e2e",
     "pokemon-api": "apps/pokemon-api"
   }
 }
